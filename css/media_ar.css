@@ -1,0 +1,260 @@
+/* start media query */
+@media (max-width: 399px){
+	.autotext .auto{
+		font-size: 22px;
+		display: block;
+
+	}
+	span.typed-cursor{
+		display: none;
+	}
+
+	.autotext h1{
+		padding-top: 130px
+	}
+
+	.autotext .heading{
+		display: block;
+		margin-top: 20px;
+		font-size: 54px
+	}
+
+	.support a.english{
+		left: 70px
+	}
+
+	.services{
+		padding: 20px 0
+	}
+
+	.services h1{
+		padding: 20px 0;
+		font-size: 36px;
+		font-weight: 600
+	}
+
+	.aboutus{
+		padding: 15px 0;
+		font-size: 36px
+	}
+
+	.aboutus p{
+		margin: 10px 0;
+		font-size: 18px
+	}
+
+	.work{
+		padding-top: 0
+	}
+
+	.work h1{
+		font-size: 36px;
+		padding: 20px 0
+	}
+
+	.text{
+		padding: 16px 10px;
+		border-radius: 10px
+	}
+
+	.team{
+		padding: 15px 0
+	}
+
+	.team h1{
+		margin-bottom: 30px
+	}
+
+	.team .member{
+		padding: 20px 0
+	}
+	.contactus h1{
+		font-size: 36px;
+		font-weight: 600;
+		margin-bottom: 30px;
+		padding-top: 30px
+	}
+
+	.btn-default{
+		width: 100%
+	}
+	.address p a{
+		font-size: 13px
+	}
+
+	.address{
+		margin-bottom: 20px
+	}
+
+	.slinks{
+		text-align: center;
+	}
+	i.fa.fa-phone.fa-3x{
+		padding-left: 0
+	}
+
+	.links img{
+		float: none;
+	}
+
+	.slinks a img.img-responsive{
+		display: inline-block;
+	}
+
+	.tel p a{
+		font-size: 16px
+	}
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+	.autotext .auto{
+		font-size: 22px;
+		display: block;
+
+	}
+	span.typed-cursor{
+		display: none;
+	}
+
+	.autotext h1{
+		padding-top: 130px
+	}
+
+	.autotext .heading{
+		display: block;
+		margin-top: 20px;
+		font-size: 54px
+	}
+
+	.support a.english{
+		left: 70px
+	}
+
+	.services{
+		padding: 20px 0
+	}
+
+	.services h1{
+		padding: 20px 0;
+		font-size: 36px;
+		font-weight: 600
+	}
+
+	.aboutus{
+		padding: 15px 0;
+		font-size: 36px
+	}
+
+	.aboutus p{
+		margin: 10px 0;
+		font-size: 18px
+	}
+
+	.work{
+		padding-top: 0
+	}
+
+	.work h1{
+		font-size: 36px;
+		padding: 20px 0
+	}
+
+	.text{
+		padding: 16px 10px;
+		border-radius: 10px
+	}
+
+	.team{
+		padding: 15px 0
+	}
+
+	.team h1{
+		margin-bottom: 30px
+	}
+
+	.team .member{
+		padding: 20px 0
+	}
+
+	.contactus h1{
+		font-size: 36px;
+		font-weight: 600;
+		margin-bottom: 30px;
+		padding-top: 30px
+	}
+
+	.btn-default{
+		width: 100%
+	}
+	.address p a{
+		font-size: 18px
+	}
+
+	.address{
+		margin-bottom: 20px
+	}
+
+	.slinks{
+		text-align: center;
+	}
+	i.fa.fa-phone.fa-3x{
+		padding-left: 0
+	}
+
+	.links img{
+		float: none;
+	}
+
+	.slinks a img.img-responsive{
+		display: inline-block;
+	}
+
+	.tel p a{
+		font-size: 18px
+	}
+}
+
+
+/* Old iPhones & small android
+@media (max-width: 767px)
+{
+    .support a.english{
+        position: fixed;
+        top:0;
+        left:80px;
+    }
+    .navbar-nav{margin-right: 0;float: right}
+
+    .form-control{margin: 10px auto}
+
+
+}
+
+
+/* Small Screen - Tablets */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .autotext .auto{font-size: 45px}
+    .navbar-nav{margin-left: 50px}
+    .aboutus p{font-size: 16px}
+    .team .block {margin: 45px}
+    .team .block .img-responsive{margin: 0 auto}
+    .form-control{margin: 0 auto}
+    .btn-default{margin: 20px auto;display: block}
+    .address{margin: 30px auto;padding: 0 80px}
+    .address h5{margin: 20px auto}
+    .links{margin:0 130px}
+}
+
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .navbar-nav{margin-left: 60px}
+
+/* Large Screen */
+@media (min-width: 1200px)
+{
+
+}
+
+/*end media query*/

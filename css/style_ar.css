@@ -1,0 +1,66 @@
+body { 
+    color: #000;
+    background: #f2f2f2;
+    overflow-x: hidden;
+    padding-top: 50px
+}
+h1,h2,h3,h4,h5,p{
+    font-family: 'El Messiri', sans-serif;
+}
+
+.support a.english{
+    background-color: #f00;
+    width:60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: fixed;
+    top:0;
+    left:15px;
+    z-index: 9999;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    transition: padding 0.5s ease-in-out;
+}
+
+.support a.english:hover{
+    padding: 5px
+}
+.navabar{margin-bottom: 0}
+.navbar-nav{margin-right: 0}
+
+.navbar-nav{float: left}
+
+.navbar .navbar-nav>li>a{font-family: 'El Messiri', sans-serif;font-size: 18px;text-align: center}
+
+.intro-page{min-height: 700px;background-color: #f7f9f9;width: 100%; margin-bottom: 0}
+
+.select{margin-right: 25px}
+
+.autotext h1,.autotext .heading,.autotext .auto{font-family: 'El Messiri', sans-serif;font-weight: 900;margin-top: 0}
+
+.address .fa-3x{font-size:28px;color: #26c6da;margin-left: 15px}
+
+i.fa.fa-phone.fa-3x{padding-left: 0;padding-right: 60px}
+.tel p a{padding-right: 0}
+.tel p a{margin-right: 10px}
+.links img{float: right;margin: 15px}
+
+
+
+.imgOverlay{
+    margin-right: 15px
+}
+
+
+
+
+
+
+
+
+
+
+

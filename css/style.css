@@ -1,0 +1,200 @@
+/*General styles*/
+body {
+    color: #000;
+    background: #f2f2f2;
+    overflow-x: hidden;
+    padding-top: 50px
+}
+
+h1,h2,h3,h4,h5,p{color:#000;font-family: 'Poppins', sans-serif;font-weight: 500;text-align: center}
+
+.support{}
+
+.support a.arabic{
+    background-color: #f00;
+    width:60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: fixed;
+    top:0;
+    right:15px;
+    z-index: 9999;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    transition: padding 0.5s ease-in-out;
+}
+
+.support a.arabic:hover{padding: 5px}
+
+.navbar-fixed-top{top:0px}
+
+/*start header section*/
+.intro-page{height: 100vh;background-color: #f7f9f9;width: 100%; margin-bottom: 0;background-size: cover;}
+.navbar-brand{padding: 10px 15px}
+.navbar-inverse .navbar-brand{color: #fff;font-size: 30px;color: #fff}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus{background-color:#26c6da;color: #000 }
+.navbar-inverse .navbar-nav>.active>a:hover{background-color: #000;color: #fff}
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus{
+	background-color: #35c2d6
+}
+.nav>li>a{padding: 15px 20px}
+.navbar .navbar-nav>li>a{color: #fff}
+ul#scene{padding-left: 0}
+
+
+.autotext{font-family: 'Baloo Bhaina', cursive;text-align: center}
+.autotext h1{padding-top:260px;font-size: 48px;color: #000;font-family: 'Baloo Bhaina', cursive}
+.autotext .heading{color: #26c6da;font-size: 68px;font-weight: 600;text-transform: uppercase;font-family: 'Baloo Bhaina', cursive}
+.autotext .auto{font-size: 68px;font-weight: 500;margin-bottom: 60px;color: #26c6da;font-family: 'Baloo Bhaina', cursive}
+/*end intro page*/
+
+/*start services*/
+.services{min-height: 700px;padding: 40px 0}
+.services h1{margin: 0;padding: 40px 0;font-size: 48px}
+.services p{margin-bottom: 40px}
+.services .bk .img-responsive{margin: 0 auto}
+.services .bk h3{font-size: 24px;margin: 25px 0;color: #26c6da;font-weight: 600}
+.services .bk p{font-size: 18px;text-align: justify}
+/*end services*/
+
+
+/*start about us*/
+.aboutus{min-height: 700px; background-color:#26c6da ;width:100%; padding-top: 50px;}
+.aboutus h1{margin:20px 0;color: #fff;font-size: 48px}
+.aboutus p{font-size: 24px;margin: 40px 0;color: #fff;text-align: justify}
+.aboutus .img-responsive{margin: 0 auto}
+/*End about us*/
+
+
+/*start our work*/
+.work{min-height: 700px;padding-top: 40px }
+.work h1{font-size: 48px;margin:0;text-transform: uppercase;padding: 40px 0}
+.btn-primary{margin-bottom: 20px;background-color: #fff;border-color:#26c6da ;color: #000;transition: all 0.5s ease-in-out}
+.btn-primary.active{background-color: #fff;border-color:#26c6da ;color: #000}
+.btn-primary.active:hover{background-color: #26c6da;border-color: #26c6da;color: #fff}
+.btn-primary:hover{background-color: #26c6da;border-color:#26c6da ;color: #fff}
+
+.block{margin-bottom: 20px;position: relative;overflow: auto}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.imgOverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.block:hover .image {
+  opacity: 0.3;
+}
+
+.block:hover .imgOverlay {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text a{text-decoration: none;color: #000}
+/*end our work*/
+
+/*start team*/
+.team{min-height: 700px;padding: 80px 0;}
+.team h1{margin-bottom: 60px}
+.team .member {background-color: #fff;padding: 40px 0;border-radius: 5px;margin-bottom: 20px}
+.team .member h2{color: #26c6da;font-size: 18px;font-weight: 500}
+.team .member .img-responsive{margin: 0 auto;opacity: 0.4;transition:all 0.8s ease-in-out;}
+.team .member .img-responsive:hover{opacity: 1}
+/*end team*/
+
+/*start contact us*/
+.contactus{
+    min-height: 600px;
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+
+}
+.contactus h1{margin-bottom: 60px;color: #26c6da;font-size: 48px;text-transform: uppercase; padding-top: 60px}
+.overlay{
+    min-height: 700px;
+    background-color: rgba(38,50,56,0.9);
+    background-size: cover
+}
+.form-control{background-color: transparent;margin-bottom: 30px;height: 50px;color: #fff}
+
+.btn-default{background-color: #263238;border-color: #26c6da;color: #fff;font-weight: 500;font-size: 16px;transition: all 0.8s ease-in-out;}
+
+.btn-default:hover{background-color: #26c6da;border-color: #26c6da;color: #000}
+
+.links{display: inline-block}
+
+.links img{float: right;margin: 15px}
+
+.address{margin-bottom: 40px}
+
+.address p a{font-size:20px;margin-left: 10px;color: #fff;text-decoration: none}
+
+.address .fa-map-marker,.fa-phone{font-size:28px;color: #26c6da;}
+
+i.fa.fa-phone.fa-3x{
+    padding-left: 60px
+}
+
+.tel{margin-bottom: 40px;padding: 0}
+
+.tel p a{font-size:20px;margin-left: 10px;color: #fff;text-decoration: none;padding-right: 30px}
+
+.tel .fa-whatsapp{font-size:28px;color: #26c6da}
+
+/*start contact us*/
+
+
+/*start scrollup button*/
+#scrollup{
+
+	width: 50px;
+	height: 50px;
+    border-radius: 25px;
+    border: 1px solid #26c6da;
+
+	background-color:#565656 ;
+	padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+	position: fixed;
+	bottom: 20px;
+	right: 15px;
+	z-index: 9999;
+	display: none;
+}
+
+#scrollup:hover{
+	background-color:#26c6da;
+	 border-color: #26c6da;
+
+}
+
+
+/*end scrollup button*/

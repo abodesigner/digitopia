@@ -1,0 +1,251 @@
+/* start media query */
+@media (max-width: 399px){
+	.autotext .auto{
+		font-size: 22px;
+		display: block;
+
+	}
+	span.typed-cursor{
+		display: none;
+	}
+
+	.autotext h1{
+		padding-top: 130px
+	}
+
+	.autotext .heading{
+		display: block;
+		margin-top: 20px;
+		font-size: 54px
+	}
+
+	.support a.arabic{
+		right: 70px
+	}
+
+	.services{
+		padding: 20px 0
+	}
+
+	.services h1{
+		padding: 20px 0;
+		font-size: 36px;
+		font-weight: 600
+	}
+
+	.aboutus{
+		padding: 15px 0;
+		font-size: 36px
+	}
+
+	.aboutus p{
+		margin: 10px 0;
+		font-size: 18px
+	}
+
+	.work{
+		padding-top: 0
+	}
+
+	.work h1{
+		font-size: 36px;
+		padding: 20px 0
+	}
+
+	.text{
+		padding: 16px 10px;
+		border-radius: 10px
+	}
+
+	.team{
+		padding: 15px 0
+	}
+
+	.team h1{
+		margin-bottom: 30px
+	}
+
+	.team .member{
+		padding: 20px 0
+	}
+	.contactus h1{
+		font-size: 36px;
+		font-weight: 600;
+		margin-bottom: 30px;
+		padding-top: 30px
+	}
+
+	.btn-default{
+		width: 100%
+	}
+	.address p a{
+		font-size: 13px
+	}
+
+	.address{
+		margin-bottom: 20px
+	}
+
+	.slinks{
+		text-align: center;
+	}
+	i.fa.fa-phone.fa-3x{
+		padding-left: 0
+	}
+
+	.links img{
+		float: none;
+	}
+
+	.slinks a img.img-responsive{
+		display: inline-block;
+	}
+
+	.tel p a{
+		font-size: 18px
+	}
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+	.autotext .auto{
+		font-size: 22px;
+		display: block;
+
+	}
+	span.typed-cursor{
+		display: none;
+	}
+
+	.autotext h1{
+		padding-top: 130px
+	}
+
+	.autotext .heading{
+		display: block;
+		margin-top: 20px;
+		font-size: 54px
+	}
+
+	.support a.arabic{
+		right: 70px
+	}
+
+	.services{
+		padding: 20px 0
+	}
+
+	.services h1{
+		padding: 20px 0;
+		font-size: 36px;
+		font-weight: 600
+	}
+
+	.aboutus{
+		padding: 15px 0;
+		font-size: 36px
+	}
+
+	.aboutus p{
+		margin: 10px 0;
+		font-size: 18px
+	}
+
+	.work{
+		padding-top: 0
+	}
+
+	.work h1{
+		font-size: 36px;
+		padding: 20px 0
+	}
+
+	.text{
+		padding: 16px 10px;
+		border-radius: 10px
+	}
+
+	.team{
+		padding: 15px 0
+	}
+
+	.team h1{
+		margin-bottom: 30px
+	}
+
+	.team .member{
+		padding: 20px 0
+	}
+
+	.contactus h1{
+		font-size: 36px;
+		font-weight: 600;
+		margin-bottom: 30px;
+		padding-top: 30px
+	}
+
+	.btn-default{
+		width: 100%
+	}
+	.address p a{
+		font-size: 18px
+	}
+
+	.address{
+		margin-bottom: 20px
+	}
+
+	.slinks{
+		text-align: center;
+	}
+	i.fa.fa-phone.fa-3x{
+		padding-left: 0
+	}
+
+	.links img{
+		float: none;
+	}
+
+	.slinks a img.img-responsive{
+		display: inline-block;
+	}
+
+	.tel p a{
+		font-size: 18px
+	}
+}
+
+
+/* Small Screen - Tablets */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .autotext .auto{font-size: 36px;display: block;margin-top: 20px}
+	span.typed-cursor{display: none}
+    .navbar .navbar-nav>li>a{padding:15px 15px;font-size: 12px}
+    .navbar-nav{margin-left: 0}
+    .navbar-nav{margin-right: 50px}
+    .aboutus p{font-size: 16px}
+    .team .block {margin: 45px}
+    .team .block .img-responsive{margin: 0 auto}
+    .form-control{margin: 10px auto}
+    .address{margin: 30px auto;padding: 0 80px}
+	.slinks{text-align: center}
+	.links img{float: none}
+	.slinks a img.img-responsive{display: inline-block}
+}
+
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .navbar-right{margin-right: 60px}
+	.autotext .auto{font-size: 40px;display: block;margin-top: 20px}
+	span.typed-cursor{display: none}
+	.tel p a{font-size: 18px}
+}
+/* Large Screen */
+@media (min-width: 1200px)
+{
+	.autotext .auto{font-size: 40px;display: block;margin-top: 20px}
+	span.typed-cursor{display: none}
+}
+
+/*end media query*/
